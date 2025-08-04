@@ -1,1 +1,8 @@
 /build
+
+# Firebase credentials
+google-services.json
+service-account.json
+
+# Android Studio local properties
+local.properties
