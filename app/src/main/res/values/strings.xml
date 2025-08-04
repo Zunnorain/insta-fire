@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">InstaFire</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_btn_text">Login</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="posted_days_ago">Posted %d days ago</string>
+    <string name="posted_hours_ago">Posted %d hours ago</string>
+    <string name="posted_minutes_ago">Posted %d minutes ago</string>
+    <string name="posted_just_now">Posted just now</string>
+    <string name="button_to_add_a_new_post">Button to Add a new Post</string>
+    <string name="all_changes_unsaved">All Changes Unsaved?</string>
+    <string name="update_data_of_your_post">Update data of your post</string>
+    <string name="caption_hello_everyone">Caption Hello Everyone!</string>
+    <string name="add_a_new_comment">Add a new comment…</string>
+
+</resources>
