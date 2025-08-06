@@ -12,8 +12,9 @@ class ScheduledNotificationWorker(
 
     override suspend fun doWork(): Result {
         return try {
-            val sender = FCMSender(applicationContext)
+            val sender = FCMSender()
             val success = sender.sendNotificationToTopic(
+                topic = "all", // Explicitly set the topic here
                 title = "Appointment Alert",
                 body = "You have an appointment with Dr.Arslan today at "
             )

@@ -93,6 +93,7 @@ dependencies {
     implementation("com.google.firebase:firebase-auth:24.0.0")
     implementation("com.google.firebase:firebase-messaging:25.0.0")
     implementation("com.google.firebase:firebase-installations:19.0.0")
+    implementation ("com.google.firebase:firebase-functions:22.0.0")
 
     //Glide
     implementation(libs.glide)  // Core library
