@@ -257,8 +257,9 @@ class ProfileFragment : Fragment() {
     private fun sendFirebaseNotificationToAll() {
         lifecycleScope.launch {
             try {
-                val sender = FCMSender(requireContext())
+                val sender = FCMSender()
                 val success = sender.sendNotificationToTopic(
+                    topic = "all", // Explicitly set the topic here
                     title = "Hello World!",
                     body = "This is to remind you to NEVER negotiate with your goals!",
                 )
