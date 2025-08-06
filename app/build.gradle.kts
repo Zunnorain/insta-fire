@@ -87,7 +87,6 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     // Firebase - Use BoM for version management
-//    implementation(platform("com.google.firebase:firebase-bom:34.0.0"))
     implementation("com.google.firebase:firebase-firestore:26.0.0")
     implementation("com.google.firebase:firebase-storage:22.0.0")
     implementation("com.google.firebase:firebase-auth:24.0.0")
